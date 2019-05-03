@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "csvjson": "^5.1.0",
-    "jsonstream": "^1.0.3"
+    "jsonstream": "^1.0.3",
+    "requests": "^0.2.2"
   }
 }
