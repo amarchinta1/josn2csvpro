@@ -1,4 +1,4 @@
-curl -o /tmp/1.json --user admin:z3r3br@l -XGET "http://166.70.118.99:31920/seed_target/_search" -H 'Content-Type: application/json' -d'
+curl --user admin:z3r3br@l -XGET "http://166.70.118.99:31920/seed_target/_search" -H 'Content-Type: application/json' -d'
 {
   "size": 0, 
   "query": {
