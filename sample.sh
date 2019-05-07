@@ -1,9 +1,10 @@
 curl --user admin:z3r3br@l -XGET "http://166.70.118.99:31920/seed_target/_search" -H 'Content-Type: application/json' -d'
 {
-  "size": 0, 
+  "size": 50, 
   "query": {
     "bool": {
       "must": [
+        
         {
           "match": {
             "sub_vertical.id": "15"
@@ -11,12 +12,12 @@ curl --user admin:z3r3br@l -XGET "http://166.70.118.99:31920/seed_target/_search
         },
         {
           "match": {
-            "user.id": "23"
+            "status": "active"
           }
         },
         {
           "match": {
-            "status": "active"
+            "seed_group.id": "182"
           }
         }
       ]
@@ -24,16 +25,10 @@ curl --user admin:z3r3br@l -XGET "http://166.70.118.99:31920/seed_target/_search
   },
   "aggs": {
     "NAME": {
-      "terms": {
-        "field": "seed_group.id"
-        },
-        "aggs": {
-          "NAME": {
-            "terms": {
-              "field": "_id"
-            }
-          }
-        }
+      "cardinality": {
+        "field": "url"
+      }
     }
-  }
+  },
+  "_source": ["url"]
 }'
