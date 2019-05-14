@@ -10,7 +10,7 @@ if (!input) {
     process.exit(0);
 }
 
-child_process(input,function(err,stdout){
+child_process(input,{ maxBuffer : 1024 * 1024}, function(err,stdout){
 
 if(err)
 {

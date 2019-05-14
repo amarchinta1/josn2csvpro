@@ -1,0 +1,25 @@
+kubota digital:
+
+
+_id,url
+28223,https://www.kitsapkubota.com/api/usedEquipment?category=&make=&model=&year=&order=&take=20&page=1
+
+28135,https://www.jamesshorttractors.com/equipment/used-equipment   https://www.jamesshorttractors.com/api/usedEquipment?category=&make=&model=&year=&order=&take=20&page=1
+
+28184,https://derbystateequipment.com/equipment/used-equipment/
+28216,https://www.coastalmachinery.com/api/usedEquipment?category=&make=&model=&year=&order=&take=20
+28204,https://www.texarkanatractor.com/equipment/used-equipment
+28230,https://www.whiteoakequipment.com/equipment/used-equipment
+28136,http://www.kentequipment.com/equipment/used-equipment
+
+28211,https://www.barlowequipment.com/equipment/used-equipment     https://www.barlowequipment.com/api/default/dealerusedequipments?$expand=DealerUsedMachineCategory&$select=DealerUsedMachineCategory,DealerUsedMachineMake,DealerUsedMachineModel,DealerUsedMachineYear&$count=true&$skip=0
+
+28187,https://www.ruwetsibley.com/equipment/used-equipment      https://www.ruwetsibley.com/api/default/dealerusedequipments?$expand=DealerUsedMachineCategory&$select=DealerUsedMachineCategory,DealerUsedMachineMake,DealerUsedMachineModel,DealerUsedMachineYear&$count=true&$skip=0
+
+28185,https://www.dorrsequipment.com/equipment/used-equipment      https://www.sixandmango.com/api/dealerusedequipments/?Take=20&Page=1&SortBy=RecentlyAdded&SortOrder=Desc
+
+
+28158,https://www.tennesseevalleytractor.com/equipment/used-equipment/   https://www.tennesseevalleytractor.com/api/dealerusedequipments/?Take=20&Page=1&SortBy=RecentlyAdded&SortOrder=Desc
+
+28172,https://www.sixandmango.com/equipment/used-equipment/     https://www.sixandmango.com/api/dealerusedequipments/?Take=20&Page=1&SortBy=RecentlyAdded&SortOrder=Desc
+
