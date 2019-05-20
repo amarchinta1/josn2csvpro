@@ -16,7 +16,7 @@ if(err)
 {
 console.log("Error",err);
 }
-var jsondata=stdout;
+var jsondata = stdout;
 const csvdata=csvjson.toCSV(stdout,{
 
 headers:'key'
